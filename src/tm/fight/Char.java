@@ -17,7 +17,7 @@ public class Char {
         if (hp <= 100 ) {
             sp = 10;
         } else {
-            sp = 7;
+            sp = 10;
         }
         return sp;
     }
