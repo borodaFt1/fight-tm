@@ -6,7 +6,7 @@ public class SpeedAt {
 
         int sp;
         if (sped == 0) {
-            sp = 8;
+            sp = 7;
         } else {
             sp = 10;
         }

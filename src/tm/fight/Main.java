@@ -9,19 +9,26 @@ public class Main {
 
         int AtSpAg = 1;
         int AtSpSt = 0;
-        int SpAg;
-        int SpSt;
+
+        int SpAg = SpeedAt.Sped(AtSpAg);
+        int SpeedAg;
+
+        int SpSt = SpeedAt.Sped(AtSpSt);
+        int SpeedSt;
 
         while (hp1 > 0 && hp2 > 0){
 
             int dice1 = RandomMashine.dice_value();
             int dice2 = RandomMashine.dice_value();
 
-            SpAg = SpeedAt.Sped(AtSpAg);
-            SpSt = SpeedAt.Sped(AtSpSt);
+            SpeedAg = SpAg + SpeedAt.Sped(AtSpAg);
+            SpeedSt = SpSt + SpeedAt.Sped(AtSpSt);
+
 
             System.out.println("dice 1 thrown : " + dice1);
             System.out.println("dice 2 thrown : " + dice2);
+            System.out.println("dice 2 thrown : " + SpAg);
+            System.out.println("dice 2 thrown : " + SpSt);
 
             if(dice1 > dice2){
                 hp2 -= RandomMashine.Dam_St();
