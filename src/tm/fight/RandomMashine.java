@@ -3,16 +3,9 @@ package tm.fight;
 public class RandomMashine {
 
     public static int dice_value(){
-
         int r_from = 0;
         int r_to   = 100;
-
-        //int random_number = 0;
-        //random_number = r_from + (int) (Math.random() * r_to);
-        //return random_number;
-
         return r_from + (int) (Math.random() * r_to);
-
     }
 
     public static int Dam_St() {
@@ -35,5 +28,12 @@ public class RandomMashine {
 
         return r_from + (int) (Math.random() * r_to);
     }
+
+    public static int typeCh(){
+        int r_from = 0;
+        int r_to   = 100;
+        return r_from + (int) (Math.random() * r_to);
+    }
+
 
 }
