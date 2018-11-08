@@ -10,4 +10,26 @@ public class Char {
         }
         return hpCh;
     }
+
+    public static int Sped(int hp) {
+
+        int sp;
+        if (hp <= 100 ) {
+            sp = 10;
+        } else {
+            sp = 7;
+        }
+        return sp;
+    }
+
+    public static String NameCh(int hp) {
+
+        String sp;
+        if (hp <= 100 ) {
+            sp = "Agility";
+        } else {
+            sp = "Strange";
+        }
+        return sp;
+    }
 }

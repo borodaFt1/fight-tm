@@ -6,14 +6,12 @@ public class Action {
         int hpCh1 = Char.classHP();
         int hpCh2 = Char.classHP();
 
-        int AtSpAg = 1;
-        int AtSpSt = 0;
+        int spCh1 = Char.Sped(hpCh1);
+        int spCh2 = Char.Sped(hpCh2);
 
-        int SpAg = SpeedAt.Sped(AtSpAg);
-        int SpeedAg;
+        String nmCh1 = Char.NameCh(hpCh1);
+        String nmCh2 = Char.NameCh(hpCh2);
 
-        int SpSt = SpeedAt.Sped(AtSpSt);
-        int SpeedSt;
 
         while (hpCh1 > 0 && hpCh2 > 0){
             int dice1 = RandomMashine.dice_value();
@@ -25,18 +23,18 @@ public class Action {
 
             if(dice1 > dice2){
                 hpCh2 -= RandomMashine.Dam_St();
-                System.out.println("PLAYER St => PLAYER Ag");
+                System.out.println(nmCh1 + " => " + nmCh2);
             } else if (dice1 == dice2){
                 System.out.println("PLAYERS MISSED )))");
             } else {
                 hpCh1-= RandomMashine.Dam_Ag();
-                System.out.println("PLAYER St <= PLAYER Ag");
+                System.out.println(nmCh1 + " <= " + nmCh2);
             }
             System.out.println("HP1 :" + hpCh1 + "        HP2 : " + hpCh2);
 
             System.out.println("====================");
             try{
-                Thread.sleep(3000);
+                Thread.sleep(2000);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
