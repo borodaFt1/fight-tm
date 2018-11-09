@@ -5,6 +5,7 @@ public class Chars {
     public static int[] get_class_chars(String Ch_class){
 
         /*
+        test
          * 0 = HP
          * 1 = ARMOR
          * 2 = MISS_PERCENT
