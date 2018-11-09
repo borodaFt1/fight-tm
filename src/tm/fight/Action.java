@@ -19,26 +19,30 @@ public class Action {
             int dice1 = RandomMashine.dice_value();
             int dice2 = RandomMashine.dice_value();
 
-
-            int s1 = sp1 + spCh1;
-            int s2 = sp2 + spCh2;
+            sp1 += spCh1;
+            sp2 += spCh2;
 
             System.out.println("dice 1 thrown : " + dice1);
             System.out.println("dice 2 thrown : " + dice2);
 
-            if (s1 >= 10 && dice1 > 20) {
+            if (sp1 >= 10 && dice1 > 20) {
                 hpCh2 -= RandomMashine.Dam_St();
-                s1 = s1 - 10;
+                sp1 -= 10;
                 System.out.println(nmCh1 + " => " + nmCh2);
-            } else {
+            } else if(sp1 < 10 && dice1 > 20) {
+                System.out.println("Игрок " + nmCh1 + " готовится удартить.");
+            }
+            else {
                 System.out.println("PLAYER " + nmCh1 + " MISSED )))");
             }
 
-            if (s2 >= 10 && dice2 > 20) {
+            if (sp2 >= 10 && dice2 > 20) {
                 hpCh1 -= RandomMashine.Dam_St();
-                s2 = s2 - 10;
+                sp2 -= 10;
                 System.out.println(nmCh1 + " <= " + nmCh2);
-            } else {
+            } else if(sp2 < 10 && dice2 > 20) {
+                System.out.println("Игрок " + nmCh2 + " готовится удартить.");
+            }else {
                 System.out.println("PLAYER " + nmCh2 + " MISSED )))");
             }
 
