@@ -6,6 +6,7 @@ public class Chars {
 
         /*
         test
+        Животные ебаные
          * 0 = HP
          * 1 = ARMOR
          * 2 = MISS_PERCENT

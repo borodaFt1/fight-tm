@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7e4cb7d5-8249-47e5-bece-43a5a7903db1" name="Default Changelist" comment="Приведение в божеский вид часть 1">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tm/fight/Action.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tm/fight/Action.java" afterDir="false" />
+    <list default="true" id="7e4cb7d5-8249-47e5-bece-43a5a7903db1" name="Default Changelist" comment="Перенес все изменения">
       <change beforePath="$PROJECT_DIR$/src/tm/fight/Char.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tm/fight/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tm/fight/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tm/fight/RandomMashine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tm/fight/Randomizing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tm/fight/SpeedAt.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,13 +26,13 @@
         <counts>
           <entry key="gitignore" value="1" />
           <entry key="java" value="1015" />
-          <entry key="txt" value="293" />
+          <entry key="txt" value="314" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="1015" />
-          <entry key="PLAIN_TEXT" value="294" />
+          <entry key="PLAIN_TEXT" value="315" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
@@ -89,8 +84,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/tm/fight/Chars.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="10" lean-forward="true" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+            <state relative-caret-position="136">
+              <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -189,7 +184,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541750675235" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541751332460" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.ChangelistConflict" />
   </component>
@@ -244,7 +239,7 @@
       <updated>1541672152930</updated>
       <workItem from="1541672154941" duration="1482000" />
       <workItem from="1541683807668" duration="4666000" />
-      <workItem from="1541738328400" duration="9139000" />
+      <workItem from="1541738328400" duration="9831000" />
     </task>
     <task id="LOCAL-00001" summary="added test2">
       <created>1541673679254</created>
@@ -323,11 +318,18 @@
       <option name="project" value="LOCAL" />
       <updated>1541745720964</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Перенес все изменения">
+      <created>1541750716253</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1541750716253</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21911000" />
+    <option name="totallyTimeSpent" value="22603000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -360,7 +362,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
-      <window_info active="true" anchor="right" id="Run" order="9" sideWeight="0.49946696" visible="true" weight="0.26439232" />
+      <window_info anchor="right" id="Run" order="9" sideWeight="0.49946696" visible="true" weight="0.26439232" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -380,7 +382,8 @@
     <MESSAGE value="Добавил часть Антохи. Закомментирована" />
     <MESSAGE value="Тест" />
     <MESSAGE value="Скорость атаки, мисы." />
-    <option name="LAST_COMMIT_MESSAGE" value="Скорость атаки, мисы." />
+    <MESSAGE value="Перенес все изменения" />
+    <option name="LAST_COMMIT_MESSAGE" value="Перенес все изменения" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/tm/fight/Test.java" />
@@ -485,8 +488,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/tm/fight/Chars.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="10" lean-forward="true" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+        <state relative-caret-position="136">
+          <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
         </state>
       </provider>
     </entry>
