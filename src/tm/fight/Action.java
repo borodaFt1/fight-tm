@@ -74,21 +74,11 @@ public class Action {
 
         }
     }
+
+
 }
-    /*
-    int hp1 = 500;
-    int hp2 = 500;
 
-
-            Player1 - ТАНК
-                armor - 5
-                atStr - 20 - 25
-
-            Player2 - ХИТРОЖУК
-                armor - 3
-                atStr - 12 - 20
-
-
+/*
     RandomMashine Randomizing  = new RandomMashine();
 
         while (hp1 > 0 && hp2 > 0){
@@ -140,5 +130,5 @@ public class Action {
 
 }
 
-}
-*/
+} */
+//Антоха - гыгыгы
